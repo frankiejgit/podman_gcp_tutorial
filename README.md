@@ -2,7 +2,7 @@
 
 ### Overview
 
-The great thing about using Podman, in addition to the benefits listed above, is that it is a drop-in replacement for docker. The experience in building, pushing and deploying container images is exactly the same. 
+The great thing about using Podman is that it is a drop-in replacement for Docker. The experience in building, pushing and deploying container images is exactly the same. 
 
 ```bash
 # To get our app to Artifact Registry
