@@ -1,0 +1,10 @@
+[project]
+name = "podman-with-gcp"
+version = "0.1.0"
+description = "Quick demo showing how to push a container image (FastAPI app) to Google Artifact Registry using Podman"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn"
+]
