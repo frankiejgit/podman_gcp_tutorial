@@ -24,7 +24,7 @@ To make things easier, let's declare some environment variables as well:
 export REGION=<your-region-of-choice>    # e.g., us-central1
 export PROJECT_ID=<your-project-id>
 export REPO_NAME=<your-repo-name>        # e.g., podman-tutorial-repo
-export IMAGE_PATH="${REGION}-us.pkg.dev/${PROJECT_ID}/${REPO_NAME}/basic-api:latest"
+export IMAGE_PATH="${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO_NAME}/basic-api:latest"
 ```
 
 After this, assuming you already have a Google Cloud project (if not, follow these [steps](https://developers.google.com/workspace/guides/create-project)), we want to enable the services we plan on using. For this tutorial, we are only using **Artifact Registry** as our container image repository and **Cloud Run** to deploy our FastAPI app. 
